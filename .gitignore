@@ -1,0 +1,14 @@
+.DS_Store
+
+# LaTeX build files (PDFs are kept so handwritten and compiled notes can be shared).
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
