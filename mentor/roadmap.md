@@ -4,6 +4,10 @@ The first three months focus on a common sequence of readings and lectures. The 
 
 ## Week 1
 
+### Schedule our meetings
+
+- [ ] Fill out [When2meet](https://www.when2meet.com/?38992693-zoSuB) with your availability.
+
 ### Watch
 
 Watch **Lecture 1a, Lecture 1b, and Lecture 1c** in the linked playlist:

@@ -20,6 +20,7 @@ Mentor: [Ziyang Jin](https://github.com/ziyang-theory).
 | Jaylen Sze | [jaylen-sze](mentees/jaylen-sze/) |
 | Ivy Zhao | [ivy-zhao](mentees/ivy-zhao/) |
 | Jack Tang | [jack-tang](mentees/jack-tang/) |
+| Mendim Eshrefi | [mendim-eshrefi](mentees/mendim-eshrefi/) |
 
 ## Your thinking matters
 
