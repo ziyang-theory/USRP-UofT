@@ -4,9 +4,9 @@ The first three months focus on a common sequence of readings and lectures. The 
 
 ## Week 1
 
-### Schedule our meetings
+### Weekly meeting
 
-- [ ] Fill out [When2meet](https://www.when2meet.com/?38992693-zoSuB) with your availability.
+We meet Fridays, 4:30–5:30 p.m. Toronto time. See the [meeting details](../meetings/README.md) for Zoom, passcode information, and the agenda.
 
 ### Watch
 
@@ -14,6 +14,10 @@ Watch **Lecture 1a, Lecture 1b, and Lecture 1c** in the linked playlist:
 
 - [Start with Lecture 1a](https://www.youtube.com/watch?v=prI35GmCon4&list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX).
 - [Open the playlist](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX) to continue with Lectures 1b and 1c.
+
+For the meeting on **Friday, October 9, 2026**, also watch **Lecture 2a, Lecture 2b, and Lecture 2c** from the same playlist and take notes.
+
+If you prefer readings to videos, see the [optional reading materials](optional-readings.md), propose to Ziyang what you would like to read, and take notes on that material instead.
 
 ### Write, ask, and share
 

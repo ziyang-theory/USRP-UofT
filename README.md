@@ -6,6 +6,8 @@ The first three months focus on reading, watching lectures, and building underst
 
 **Start with the [shared roadmap](mentor/roadmap.md), including the [Week 1 assignment](mentor/roadmap.md#week-1).** See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add notes and ask for feedback.
 
+**Weekly meeting:** Fridays, 4:30–5:30 p.m. Toronto time. See the [meeting details](meetings/README.md) for Zoom and the agenda.
+
 ## People
 
 Mentor: [Ziyang Jin](https://github.com/ziyang-theory).
@@ -39,6 +41,7 @@ For handwritten notes, a readable PDF or image export makes sharing easier. For 
 ## Where things go
 
 - [`mentor/roadmap.md`](mentor/roadmap.md): weekly materials and guidance from the mentor.
+- [`mentor/optional-readings.md`](mentor/optional-readings.md): other reading materials if you prefer a different direction from the shared schedule.
 - [`mentees/`](mentees/): each person's notes, questions, and optional explorations.
 - [`meetings/`](meetings/): shared meeting notes and decisions.
 - [Issues](https://github.com/ziyang-theory/USRP-UofT/issues): questions or tasks you want the group to follow up on.
