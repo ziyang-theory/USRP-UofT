@@ -16,6 +16,18 @@ I didn't expect him to namesdrop locations where to find papers. The advice to s
 
 Lesson: throw math into software as quickly as humanly possible.
 
+== 2a
+
+It's unclear what the advantage of small $o$ is over big $O$ notations. Also, I incorrectly called the $O(3^n) > O(2^n)$ example, so I guess my intuition is not quite good.
+
+The $1/2n^2(1+O(1/n)$ trick is pretty nice.
+
+== 2c
+
+$ln(1+x) = x$ gives $sin(x) = x$ vibes.
+
+$e^(epsilon/2) = 1 + epsilon/2$
+
 = Other
 
 == Yao’s Protocol for Two-Party Computation
