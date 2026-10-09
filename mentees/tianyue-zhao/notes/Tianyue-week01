@@ -1,2 +1,114 @@
+LEC01
 - There is a lot of freedom within TCS 
   - Studying algorithms and complexity of Protein Folding, Ad auctions, Quantum Tomography, Cake Cutting, Perverse sheaves, Fundamental Computational Problems
+
+- TCS is hard
+  - Expect to spend a lot of time
+    - Julia Robinson tried to prove a theorem for 4 days then found out it was false
+  - Don't be afraid to try different things 
+    - If you try enough things, you can solve the problem by combining the progress you've made from everything
+  - Make constant progress
+    - 1% per day for 100 days
+  - Don't give up if you cannot find a way to solve problems
+
+- Stay up to date with TCS
+  - https://theory.report/
+  - https://simons.berkeley.edu/videos
+  - Youtube
+  - FOCS/STOC/SODA/CCC
+  - arXiv/ECCC
+  - Papers cited by the one you're current reading
+
+- Managing References
+  - Save local copies of every paper you look at with consistent naming convention
+  - Maintain a lifetime .bib file
+  - Reference Management software
+    - JabRef, BibDesk
+  - ams.org/mrlookup
+
+- LaTex is non-negotiable
+  - Have lifetime stub .tex file and lifetime .sty file
+  - Include figures when applicable
+    - import png/jpg/pdf/eps files with \includegraphics{}
+    - Drawing them can be done with Inkscape, TikZ
+    - Powerpoint, Keynote
+
+- Writing tips
+  - Math should always be 100% correct
+    - "Otherwise, you could prove that the sun is composed of butter" (Prof. Khesin)
+  - Write it in a way that your readers can understand
+    - Too many symbols is NOT good
+
+- Presentations
+  - Powerpoint, Keynote
+    - Integrade math equations in your slides
+  - https://graphics.stanford.edu/~kayvonf/misc/cleartalktips.pdf
+
+- Do whatever you need to finish your problem (RESEARCH ONLY)
+  - If it's a sequence, search on oeis.og
+  - If it's terminology, go to wikipedia
+  - If it's a "random" number, use Inverse symbolic calculator
+  - If it's something another expert knows, ask on mathoverflow.net
+  - A lot of stack exchange websites for questions (although perhaps AI can answer them nowadays)
+  - Computational problems should be sent to WolframAlpha (again, AI can probably answer them nowadays)
+
+- Problem Solving!
+  - Try small, easy to compute subcases first to gain intuition
+  - Although a question might have infinite constraints (e.g. everything within a range), you can usually pick a small subset of them and it would not affect the answer that much
+    - You can plug the subset of points into software to solve it for you
+    - Then, from the answer, you can usually deduce the correct answer (e.g. if it's 3.0000001, it's probably 3)
+    - Then, you can prove that your answer works!
+      - Usually easier to prove an answer than to find an answer while proving
+  - Combine this with the websites above
+
+LEC02
+- Big O Notation
+  - f(x) = O(g(x)) if there exists a real number C such that for all sufficiently large x, f(x) <= C*g(x)
+    - I am most familiar with this as competitive programming almost exclusively cares about big O
+    - Constraints make it so that the right big O time complexity should always pass even with bad constant factor
+    - While higher time complexities should never pass even with a great constant factor
+  - Can be used to denote an anonymous function f(x) that is negligible to the total runtime of the function
+    - E.g. x^2+9x can be written as x^2 + O(x)
+  - Big Omega
+    - f(x) = Omega(g(x)) if there exists a real number C > 0 such that for all sufficiently large x, f(x) >= C*g(x))
+  - Big Theta
+    - f(x) = Theta(g(x)) if Omega(g(x)) <= f(x) <= O(g(x))
+  - There exists little o and little omega, which remove the equality part from their respective functions
+  - Poly
+    - f(x) = poly(g(x)) if f(x) = g(x)^O(1)
+  - tilde{O}
+    - f(x) = tilde{O}(g(x)) if f(x) = g(x)*poly(log(g(x))
+    - There also exists tilde{omega} and tilde{theta}
+  - O_k
+    - Used when there are more than 1 variable in the formula
+    - O_k(g(x)) means that if k is treated as a constant, f(x) = O(g(x))
+  - g(n) is in standard form if it is a product of the following types
+    - constants
+    - constant powers of ln n
+    - constant powers of n
+    - exponential functions
+    - n^cn, where c is a real number
+    - Each type is asymptomatically more than the one before it
+  - f(x) is asymptotic to g(x) for suffficient large values of x if f(x)/g(x) -> 1
+    - Equivalent to f(x) = g(x)*(1 +- o(1))
+
+- Harmonic Numbers
+  - Defined as the sum of the postive number reciprocals up to that integer
+    - H(n) = 1 + 1/2 + 1/3 + ... + 1/n
+    - Approximately ln n
+  - Obtaining a resonable UPPER bound
+    - 1/3 is at most 1/2, 1/5 is at most 1/4, 1/6 is at most 1/4, 1/7 is at most 1/4, etc
+    - H(n) <= 1 + 1/2 + 1/2 + 1/4 + 1/4 + 1/4 + 1/4 + ... 
+    - Thus, H(n) <= floor(log2(n)) + 1 => O(H(n)) = O(log n)
+  - Obtaining a reasonable LOWER bound
+    - 1/3 is at least 1/4, 1/5 is at least 1/8, 1/6 is at least 1/8, 1/7 is at least 1/8, etc
+    - H(n) >= 1 + 1/2 + 1/4 + 1/4 + 1/8 + ... 
+    - Thus, H(n) >= (1/2)floor(log2(n)) + 1 => Omega(H(n)) = Omega(log(n))
+  - Since Omega(log(n)) <= H(n) <= O(log(n)), Theta(H(n)) = Theta(log(n))
+  - Approximation using integrals (I do not know how to do them)
+    - It is the sum of some rectangles under the graph f(x) = 1/n
+    - Upper bound is equal to 1 plus the area under the curve of f(x) from 1 to n
+      - Equals ln(n) + 1 
+    - If we shift the rectangles rightward, we see that the lower bound is equal to the area under the curve of f(x) from 1 to n+1
+      - Equals ln(n+1)
+    - Thus, ln(n+1) <= H(n) <= ln(n)+1, which supports our bounds above
