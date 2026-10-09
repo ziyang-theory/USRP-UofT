@@ -107,6 +107,55 @@ Helps in creating collaborative environment, which helps in papers and projects.
 
 -Make your .bib files high quality!
 
+Since .bib files is so important, let us ask ourselves where should we get them, these are websites are what the professor advised:
+
+   1.ams.com
+   2.scholar.google.com
+
+##### LaTeX pet peeves
+
+The main keynote is to be careful on how your latex code will look like.
+
+Do not use equation array.
+
+Remember, when in doubt, look at: tex.stackexchange.com
+
+If you can add a figure, add it, if it helps the reader better understand what is being talked about.
+
+### Street Fighting Mathematics
+
+#### Wikipedia for research
+
+A really good source of information when dealing with terms, theorems or other mathematical conceots that you have not encountered and are interested in knowing them, the good place would then be wikipedia.
+
+This is helpful when reading a research paper and are interested in understanding a complex term.
+
+It is a really good source for pure math.
+
+Other websites include:
+
+Inverse symbolic calculator
+
+mathoverflow.net(ask research question only)
+
+Use stackexchanges websites.
+
+#### Computer Algebra System
+
+Mathematics/Maple/Sage
+
+Good to use for calculation and computation.
+
+MatLab is something to be learnt.
+
+#### Visualizing Math Problems
+
+Linear Program, used in maple by the prof.
+
+The last part of the video look like more of a form of problem-solving, where we try to find a solution of a problem, and we do that by using our resources of information, like mathematica, wikipedia, and then trying to use references which lead to book and research papers and from there we try to find a final solution to the problem.
+
+
+
 
 
    
