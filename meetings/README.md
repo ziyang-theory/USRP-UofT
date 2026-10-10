@@ -12,6 +12,8 @@ We meet every Friday, 4:30–5:30 p.m. Toronto time, on [Ziyang's Zoom meeting](
 
 ## Meeting notes
 
+- [October 9, 2026 — First meeting: AI, exploring TCS, and next week's reading plan](2026-10-09.md).
+
 Add shared meeting notes here using a descriptive filename, such as `YYYY-MM-DD.md`.
 
 Record the material discussed, useful explanations, questions that remain open, and any agreed next steps. Link to individual notes rather than copying them.

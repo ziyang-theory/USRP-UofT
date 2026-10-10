@@ -1,6 +1,6 @@
 # Optional reading materials
 
-The [shared roadmap](roadmap.md) is the group's common weekly schedule. If you would rather follow a different reading direction, propose to Ziyang what you would like to read from this list (or another source), and share notes from your own thinking in your [mentee folder](../mentees/).
+The [shared roadmap](roadmap.md) offers a suggested weekly plan, with room to adjust your pace and topics to your time and interests. Our goal in this phase is to explore different areas of TCS and discover what interests you. If you would rather follow a different reading direction, propose to Ziyang what you would like to read from this list (or another source), and share notes from your own thinking in your [mentee folder](../mentees/).
 
 - [*Algorithmic Game Theory*](https://www.cambridge.org/core/books/algorithmic-game-theory/0092C07CA8B724E1B1BE2238DDD66B38) — edited by Noam Nisan, Tim Roughgarden, Éva Tardos, and Vijay V. Vazirani. Look under the publisher's Resources tab for online access; check [U of T Libraries](https://library.utoronto.ca/use/tool/librarysearch) for a downloadable edition if needed.
 - [Tim Roughgarden's Algorithmic Game Theory lectures](https://www.youtube.com/playlist?list=PLEGCF-WLh2RJBqmxvZ0_ie-mleCFhi2N4) — video lectures from Stanford's CS364A course.
