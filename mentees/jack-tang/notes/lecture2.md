@@ -41,16 +41,18 @@ $H_n\le 1+\int_1^n{\frac{1}{t}dt}=1+\ln n$
 
 $H_n\ge \int_1^{n+1}{\frac{1}{t}dt}=\ln(n+1)$
 
+The usage of integration bounding is quite nice. 
+
 <hr></hr>
 
 $\ln (1+x) \approx x$ for small $x$
 
 So $e^x\approx 1+x$ for small $x$
 
-ex: $\frac{1}{1-\epsilon}\approx \frac{1}{e^{-\epsilon}}=e^\epsilon \approx 1+\epsilon$
+ex: $\frac{1}{1-\epsilon}\approx \frac{1}{e^{-\epsilon}}=e^\epsilon \approx 1+\epsilon$. Very fun.
 
 <br/>
 
-$a+b\approx \max(a,b)$ since $\max(a,b)\le a+b\le 2\max(a,b)$
+$a+b\approx \max(a,b)$ since $\max(a,b)\le a+b\le 2\max(a,b)$ This looks very concerning yet valid in asymptotic analysis. 
 
 

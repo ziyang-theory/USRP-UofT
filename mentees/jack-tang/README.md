@@ -7,3 +7,5 @@ Start with the [shared roadmap](../../mentor/roadmap.md). See [CONTRIBUTING.md](
 ## Notes
 
 Add links to your notes here as you contribute.
+
+* [Lecture 2](notes/lecture2.md)
