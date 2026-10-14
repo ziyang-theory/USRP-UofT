@@ -2,9 +2,13 @@
 
 An eight-month mentored research group at the University of Toronto, with interests in theoretical computer science, cryptography, and AI safety.
 
-The first three months focus on reading, watching lectures, and building understanding together. Everyone follows one shared roadmap, with room to explore additional material according to their interests.
+The first three months focus on reading, watching lectures, and exploring different areas of theoretical computer science. Most team members are first- or second-year undergraduate students, and the goal for this phase is to build understanding and find what interests you.
 
-**Start with the [shared roadmap](mentor/roadmap.md), including the [Week 1 assignment](mentor/roadmap.md#week-1).** See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add notes and ask for feedback.
+The shared roadmap is a starting point. Adjust your pace to your time and interests: you can watch more or fewer videos, or skip some, while keeping prerequisite dependencies in mind.
+
+**Start with the [shared roadmap](mentor/roadmap.md), including the [Week 2 reading plan](mentor/roadmap.md#week-2) for October 16.** See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add notes and ask for feedback.
+
+**Weekly meeting:** Fridays, 4:30–5:30 p.m. Toronto time. See the [meeting details](meetings/README.md) for Zoom and the agenda.
 
 ## People
 
@@ -20,6 +24,7 @@ Mentor: [Ziyang Jin](https://github.com/ziyang-theory).
 | Jaylen Sze | [jaylen-sze](mentees/jaylen-sze/) |
 | Ivy Zhao | [ivy-zhao](mentees/ivy-zhao/) |
 | Jack Tang | [jack-tang](mentees/jack-tang/) |
+| Mendim Eshrefi | [mendim-eshrefi](mentees/mendim-eshrefi/) |
 
 ## Your thinking matters
 
@@ -38,11 +43,12 @@ For handwritten notes, a readable PDF or image export makes sharing easier. For 
 ## Where things go
 
 - [`mentor/roadmap.md`](mentor/roadmap.md): weekly materials and guidance from the mentor.
+- [`mentor/optional-readings.md`](mentor/optional-readings.md): other reading materials for exploring different interests.
 - [`mentees/`](mentees/): each person's notes, questions, and optional explorations.
 - [`meetings/`](meetings/): shared meeting notes and decisions.
 - [Issues](https://github.com/ziyang-theory/USRP-UofT/issues): questions or tasks you want the group to follow up on.
 - [Discussions](https://github.com/ziyang-theory/USRP-UofT/discussions): conversations about what you learned and open-ended questions.
 
-Keep individual detours in your own folder and link to the relevant material. The mentor can add useful detours as optional resources in the shared roadmap.
+Keep individual explorations in your own folder and link to the relevant material. The mentor can add useful resources from these explorations to the shared roadmap.
 
 This repository is public. Everything uploaded here, including notes and comments, can be read by anyone; only share material you intend to make public.
