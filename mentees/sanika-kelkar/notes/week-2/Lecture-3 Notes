@@ -1,0 +1,41 @@
+Lecture 3a - Birthday Paradox Asymptotics:
+- m bins, n balls thrown into random bins
+- e^x is approximately equal to 1 + x (for small x)
+- e^(-x) >= 1-x (for all x >= 0)
+- There's a way to simplify the calculations for the probability using asymptotics
+- Sum of the first n squares is the big theta of n^3
+- exp = ?
+
+Lecture 3b - Factorial Asymptotics, Stirling's Formula:
+- Different ways to write n! (as an asymtotic expression)
+- Keep taking log
+- n! = 2^(theta(n logn))
+- Applied same method to e^x
+- nth term = x^n / n!
+- n! >= (x^n / e^x)
+- Trick: plot the ln function and compare it with the obtained integral
+- Divide into triangles
+- The triangles occupy a little less than half the area of the rectangle
+- Stirling's formula says that n! is asymptotic to root(2 pi) x root(n) x (n^n / e^n)
+
+Lecture 3c - Binomial Coefficient Asymptotics:
+- (n k) = n! / k! (n-k)!
+- For small k, (n k) is approx equal to (n^k / k!)
+- (n k) = (n^k / k!)(1 - 1/n)(1 - 2/n) ... (1 - (k-1)/n)
+- For small k, the above expression is approx equal to 1 - (k^2 / 2n)
+- (n k) ~ n^k / k! (provided k is o(root(n)), which is to say that it is asymptotically small)
+- (n k) <= (n^k / k!)
+- k! >= (k^k / e^k)
+- (n k) <= (en/k)^k - always
+- (n k) >= (n/k)^k
+- Take the log of everything
+- kln(n/k) <= ln(n k) <= kln(en/k) = kln(n/k) + k
+- ln(n n^(.99)) = theta(n^(.99) log n) => ln(n ln) = theta(n)
+- (n k) = (n n-k)
+- Write k = pn. Let 0 <= p <= 1/2.
+- (1 + x)^n >= x^k . V(n,k)
+- V(n,k) <= (1+x / x^p)^n
+- "Best" x : x = p/q
+- x = p/q <= 1
+- "binary entropy"
+
