@@ -7,5 +7,6 @@ Start with the [shared roadmap](../../mentor/roadmap.md). See [CONTRIBUTING.md](
 ## Notes
 
 Add links to your notes here as you contribute.
-
-[Google Docs - CS Theory Notes](https://docs.google.com/document/d/1Om34T2VJrHPEpmHWP-xg0xWZjWziOmcZh406s2iSrWo/edit?usp=sharing)
+[Entire Document](https://docs.google.com/document/d/1Om34T2VJrHPEpmHWP-xg0xWZjWziOmcZh406s2iSrWo/edit?usp=sharing)
+[Lecture 1-2](https://docs.google.com/document/d/1Om34T2VJrHPEpmHWP-xg0xWZjWziOmcZh406s2iSrWo/edit?tab=t.uk0ux9spohux)
+[Lecture 3-4](https://docs.google.com/document/d/1Om34T2VJrHPEpmHWP-xg0xWZjWziOmcZh406s2iSrWo/edit?tab=t.y4zvcxp8e6uo)
