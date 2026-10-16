@@ -61,5 +61,3 @@ I dedicated a lot of time to trying to understand the calculus of constructions 
 On a later examination it appears that the #link("https://rocq-prover.org/doc/v8.9/refman/language/cic.html")[rocq docs] are quite good compared to lean, though still far of from comprehensible. It appears Rocq uses sets as a basic type, whereas lean doesn't consider sets or zfc to be natural. This makes it quite confusing.
 
 It is however nice to note that haskell and erlang as functional programming languages are quite useful. Though on second examination it appears they have little in common still.
-
-=== Lecture 3c
