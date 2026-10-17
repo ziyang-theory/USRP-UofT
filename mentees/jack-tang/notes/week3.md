@@ -22,6 +22,12 @@ _What are some uncomputable sequences/numbers?_<br>
 \- irrational numbers, for they require infinite prints<br>
 \- *are all finite sequences computable?? since just take a tape that literally records it*
 
+<br>
+
+Turing uses a simplification of configuration tables by allowing multiple chains of actions at each configuration.<br>
+_Is this justifed?_<br>
+I think so, just create a helper chain of configurations that acts out the behaviour. So the notation is valid shorthand.
+
 
 
 
