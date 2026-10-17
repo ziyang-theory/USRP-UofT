@@ -1,14 +1,14 @@
 # USRP-UofT
 
-An eight-month mentored research group at the University of Toronto, with interests in theoretical computer science, cryptography, and AI safety.
+This is an eight-month mentored research group at the University of Toronto. Our interests include theoretical computer science, cryptography, and AI safety.
 
-The first three months focus on reading, watching lectures, and exploring different areas of theoretical computer science. Most team members are first- or second-year undergraduate students, and the goal for this phase is to build understanding and find what interests you.
+The first three months focus on reading, watching lectures, and exploring areas of theoretical computer science. Most members are first- or second-year undergraduate students. This phase helps you understand the material and find your interests.
 
-The shared roadmap is a starting point. Adjust your pace to your time and interests: you can watch more or fewer videos, or skip some, while keeping prerequisite dependencies in mind.
+Use the [shared roadmap](mentor/roadmap.md) as a starting point, and adjust your pace to your time and interests. You can watch more or fewer videos, or skip some, while keeping prerequisite dependencies in mind.
 
-**Start with the [shared roadmap](mentor/roadmap.md), including the [Week 2 reading plan](mentor/roadmap.md#week-2) for October 16.** See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add notes and ask for feedback.
+The [Week 3 reading and viewing plan](mentor/roadmap.md#week-3) is for October 23. Read [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to add notes and ask for feedback.
 
-**Weekly meeting:** Fridays, 4:30–5:30 p.m. Toronto time. See the [meeting details](meetings/README.md) for Zoom and the agenda.
+We meet on Fridays from 4:30 to 5:30 p.m. Toronto time. See the [meeting details](meetings/README.md) for Zoom and the agenda.
 
 ## People
 
@@ -28,17 +28,17 @@ Mentor: [Ziyang Jin](https://github.com/ziyang-theory).
 
 ## Your thinking matters
 
-Write notes from your own thinking and in your own words. A short explanation, a worked example, or a thoughtful question can be a useful contribution. There is no minimum length, and notes do not need to be polished or complete.
+Write notes from your own thinking and in your own words. A short explanation, a worked example, or a thoughtful question can help the group. There is no minimum length. Your notes do not need to be polished or complete.
 
-**Do not use AI to generate or pad your notes. Do not submit AI-generated summaries or bulk text as your own notes.** The purpose is to develop and share your understanding. Include what you find confusing, what you tried, and what you learned. Fluent text is not a substitute for thinking through the material yourself.
+Do not use AI to generate or pad your notes. Do not submit AI-generated summaries or bulk text as your own notes. The purpose is to develop and share your understanding. Include what you find confusing, what you tried, and what you learned. Fluent text is not a substitute for thinking through the material yourself.
 
-When referring to someone else's explanation or result, link to the source and make clear which parts are yours. Label an unfinished argument or a conjecture as such. Adding or merging a note does not mean that its claims have been verified.
+Link to the source when you refer to another person's explanation or result. Make clear which parts are yours. Label unfinished arguments and conjectures. Adding or merging a note does not mean that anyone has verified its claims.
 
 ## Any readable format is welcome
 
-Notes can be Markdown, LaTeX, plain text, PDFs, images, handwritten notes from an iPad, or another format that works for you. Choose what helps you think.
+Choose any readable format that helps you think. Options include Markdown, LaTeX, plain text, PDFs, images, and handwritten notes from an iPad.
 
-For handwritten notes, a readable PDF or image export makes sharing easier. For LaTeX, a PDF alongside the source is helpful when convenient. Neither formatting nor length is the goal.
+A readable PDF or image export makes handwritten notes easier to share. For LaTeX, you can include a PDF with the source when convenient.
 
 ## Where things go
 
@@ -46,9 +46,9 @@ For handwritten notes, a readable PDF or image export makes sharing easier. For 
 - [`mentor/optional-readings.md`](mentor/optional-readings.md): other reading materials for exploring different interests.
 - [`mentees/`](mentees/): each person's notes, questions, and optional explorations.
 - [`meetings/`](meetings/): shared meeting notes and decisions.
-- [Issues](https://github.com/ziyang-theory/USRP-UofT/issues): questions or tasks you want the group to follow up on.
+- [Issues](https://github.com/ziyang-theory/USRP-UofT/issues): questions or tasks for the group to follow up on.
 - [Discussions](https://github.com/ziyang-theory/USRP-UofT/discussions): conversations about what you learned and open-ended questions.
 
 Keep individual explorations in your own folder and link to the relevant material. The mentor can add useful resources from these explorations to the shared roadmap.
 
-This repository is public. Everything uploaded here, including notes and comments, can be read by anyone; only share material you intend to make public.
+This repository is public, so anyone can read its files and comments. Only share material you intend to make public.
