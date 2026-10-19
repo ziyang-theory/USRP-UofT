@@ -1,4 +1,15 @@
+# CS Theory Toolkit (lec 4)
 
+To standardize variable:
+
+* Mean 0: subtrack mean $\mu =E[X]$
+* Stdev 1: divide by stdev $\sigma=\sqrt{Var(X)}= \sqrt{E(X-E[X])^2}$
+
+So the standardized $\frac{X-E[X]}{\sqrt{E[X^2]-E[X]^2}}$<br>
+In general. define the standardized variable $Z=\frac{X-\mu}{\sigma}$<br>
+_Constant variables (var=0) are not standardizable!_
+
+Suppose $z=(z_1, z_2, \dots, z_n)$ where each $z_i$ is independent with each other and from an identical standard gaussian distribution. Then the distribution of $z$ is rotationally symmetric. 
 
 # Turing's Paper
 
