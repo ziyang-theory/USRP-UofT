@@ -39,6 +39,14 @@ Turing uses a simplification of configuration tables by allowing multiple chains
 _Is this justifed?_<br>
 I think so, just create a helper chain of configurations that acts out the behaviour. So the notation is valid shorthand.
 
+<br>
+All machines take on a Standard Description of three forms (L, R, S) of table entry. And by assigning different numerical lexicon to each description, we obtain Description Number. Description Numbers uniquely (up to redundant information) determines the structure of machines.<br>
+_Reminiscent of Godel numbering?_
+
+<br>
+
+The Universal Turing Machine can _take_ any other Turing machine (on its F-squares) and execute that machine. <br>
+_Significant to computing systems? where we can write code on the computer that executes the code?_
 
 
 
