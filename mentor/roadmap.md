@@ -69,6 +69,14 @@ Bring your reasoning to the meeting.
 
 The [October 16 meeting notes](../meetings/2026-10-16.md) cover finite fields, additive secret sharing, and a three-party computation of an age sum. The [companion handout](finite-fields-and-secret-sharing.md) includes a worked example.
 
+## Week 4
+
+### Watch and take notes
+
+For **Friday, October 30, 2026**, continue with **Lectures 7 and 8** of [Ryan O'Donnell's CS Theory Toolkit series](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX) and take notes.
+
+Write down your own observations, examples, and questions in your mentee folder, and bring them to the meeting. Adjust the amount you watch to your time and interests, and return to earlier lectures when you need more background.
+
 ## Write, ask, and share
 
 Add notes to your own folder in any format that works for you. Share what you learned and the questions you want to discuss with the group.
