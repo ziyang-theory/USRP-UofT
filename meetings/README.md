@@ -12,6 +12,7 @@ We meet every Friday from 4:30 to 5:30 p.m. Toronto time on [Ziyang's Zoom meeti
 
 ## Meeting notes
 
+- [October 23, 2026: Beaver triples, multiplication, and Condorcet sets](2026-10-23.md).
 - [October 16, 2026: Finite fields, secret sharing, and computing a sum](2026-10-16.md).
 - [October 9, 2026: First meeting on AI, exploring TCS, and next week's reading plan](2026-10-09.md).
 
