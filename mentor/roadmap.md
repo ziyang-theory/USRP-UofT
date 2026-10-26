@@ -10,6 +10,8 @@ The mentor will add materials and guidance for later weeks. Record other topics 
 
 We meet on Fridays from 4:30 to 5:30 p.m. Toronto time. See the [meeting details](../meetings/README.md) for the Zoom link, passcode information, and agenda.
 
+Ziyang also meets separately with Jack and Andrei on Wednesdays from 6:00 to 6:30 p.m. Toronto time to better fit their schedules, starting October 7, 2026. There will be no Wednesday meeting on **October 28** due to reading week.
+
 ## Week 1
 
 ### Watch
@@ -71,11 +73,13 @@ The [October 16 meeting notes](../meetings/2026-10-16.md) cover finite fields, a
 
 ## Week 4
 
+There will be **no regular meeting on Friday, October 30, 2026**, due to reading week. Our next regular Friday meeting will be on **Friday, November 6, 2026**.
+
 ### Watch and take notes
 
-For **Friday, October 30, 2026**, continue with **Lectures 7 and 8** of [Ryan O'Donnell's CS Theory Toolkit series](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX) and take notes.
+By the **November 6** meeting, please finish watching **through Lecture 10 (inclusive)** of [Ryan O'Donnell's CS Theory Toolkit series](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX) and take notes.
 
-Write down your own observations, examples, and questions in your mentee folder, and bring them to the meeting. Adjust the amount you watch to your time and interests, and return to earlier lectures when you need more background.
+Write down your own observations, examples, and questions in your mentee folder, and bring them to the meeting. Return to earlier lectures when you need more background.
 
 ## Write, ask, and share
 
