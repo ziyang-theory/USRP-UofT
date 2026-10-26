@@ -6,9 +6,11 @@ The first three months focus on reading, watching lectures, and exploring areas 
 
 Use the [shared roadmap](mentor/roadmap.md) as a starting point, and adjust your pace to your time and interests. You can watch more or fewer videos, or skip some, while keeping prerequisite dependencies in mind.
 
-The [Week 4 viewing and note-taking plan](mentor/roadmap.md#week-4) is for October 30. Read [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to add notes and ask for feedback.
+There will be no regular meeting on **October 30** due to reading week. Our next regular Friday meeting is **November 6**; by then, please finish watching **through Lecture 10 (inclusive)** of TCS Toolkits. See the [viewing and note-taking plan](mentor/roadmap.md#week-4), and read [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to add notes and ask for feedback.
 
 We meet on Fridays from 4:30 to 5:30 p.m. Toronto time. See the [meeting details](meetings/README.md) for Zoom and the agenda.
+
+Ziyang also meets separately with Jack and Andrei on Wednesdays from 6:00 to 6:30 p.m. Toronto time to better fit their schedules, starting October 7, 2026. There will be no Wednesday meeting on **October 28** due to reading week.
 
 ## People
 
