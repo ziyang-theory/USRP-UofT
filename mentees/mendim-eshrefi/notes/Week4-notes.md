@@ -1,1 +1,1 @@
-[TCS-Week 4.pdf](https://github.com/user-attachments/files/34200973/TCS-Week.4.pdf)
+https://docs.google.com/document/d/1lLh_X-uoEyDy3r5Y3WPLq3FaRbE47_QvdWVPWw5PLtw/edit?usp=sharing
