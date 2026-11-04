@@ -27,6 +27,10 @@ I read the first "Computational Complexity 101" chapter. Avi brings up the impor
 
 I realized that the calculation vs verification difference is important, because it determines our ability to offload work to unreliable 3rd parties.
 
+NP and coNP are about proofs that can be verified in polynomial time. Curiously, I don't think there is a guarantee that even if a result is computable in sub exponential time, a convincing proof can be generated in less time.
+
+It is not intuitive (to me) that problems could be complete in their complexity class. I don't see how every problem in P can be converted into any other in P.
+
 == CS Theory Toolkit
 
 === Recitation 3
