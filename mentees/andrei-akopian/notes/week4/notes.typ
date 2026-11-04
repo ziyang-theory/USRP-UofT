@@ -37,18 +37,6 @@ I didn't understand what was happening. Perhaps would be great to have access to
 
 Note: this is heavy overlap with my sta257 material.
 
-A nice thing of chebunchev inequality, is that it works if variables are pairwise independent.
+A nice thing about chebunchev inequality, is that it works if variables are pairwise independent.
 
 TODO, I didn't understand anything, will have to re-watch all the lectures and work out the math for myself.
-
-== Mentor content
-
-TODO: Find geometric representation for multi party computation.
-
-TODO: Try to find bounds for the voting problem.
-
-TODO: look into Busy Beaver
-
-TODO: look into other models of computation
-
-TODO: watch more lectures
