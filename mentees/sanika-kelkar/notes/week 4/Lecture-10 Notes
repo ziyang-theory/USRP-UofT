@@ -1,0 +1,113 @@
+Video-1: Foundations of Fields and Formal Polynomials
+
+Field Axioms and Algebraic Structure: 
+- A field is the foundational number system for algebraic algorithms.
+- A field set has 2 binary operations: addition & multiplication
+- These operations satisfy the standard arithmetic properties: associativity, commutativity, additive & multiplicative identities, 
+  additive & multiplicative inverses (for all non-zero elements).
+- Common standard infinite fields: Rational numbers (Q), Real numbers (R), Complex numbers (C)
+- The set of integers is NOT a field because non-zero integers (except 1 and -1) don't have multiplicative inverses within the integers.
+- Finite fields contain a finite number of elements (q).
+- These finite fields (Fq / GF(q)) play an important role in algorithm design and complexity theory due to their discrete structure and exact arithmetic.
+
+Polynomial Rings Over Fields:
+- We can construct polynomials over a field as formal algebraic expressions.
+- F[X1, X2, ..., Xn] denotes the polynomial ring: consists of all sums of monomials whose variables are in {X1, ..., Xn} and whose coefficients 
+  are elements of the field F.
+- Univariate polynomials
+- The degree of the constant polynomial is 0, and that of the zero polynomial is left undefined.
+
+The Degree Mantra:
+- A non-zero univariate polynomial of degree at most d has at most d distinct roots in the field F.
+- The proof relies on the polynomial division algorithm over fields.
+- P(x) can possess at most d roots.
+
+Multivariable Polynomials and the Schwartz-Zippel Lemma:
+- The degree mantra extends to multivariable polynomials through some fundamental probabilistic bound (the lemma).
+- This lemms is the backbone of randomized identity testing for multivariable expressions.
+- Parameters: Polynomial type, Total degree bound, Sampling domain, Zero output bound
+- As long as the field size q is larger enough than the degree d, evaluating a non-zero multivariable polynomial at any random point gives 
+  a non-zero value with high probability.
+
+
+Video-2: Prime Fields and Modulo Arithmetic
+
+Construction of Modular Fields:
+- For any prime number p, the set of integers modulo p forms a finite field with p elements. 
+- Addition, subtraction, and multiplication are performed (mod p).
+- It also has closure under division because every non-zero element has a unique multiplicative inverse satisfying b * b^(-1) = 1 (mod p).
+- So b * b^(-1) % p = 1
+- If m is not a prime number, the set of integers modulo p cannot form a field because non-zero elements sharing a common factor with m act 
+  as zero divisors- preventing the existence of multiplicative inverses.
+
+Computing Multiplicative Inverses via Extended Euclidean Algorithm:
+- To compute b^(-1) % p efficiently, we apply the Extended Euclidean Algorithm to b and p. 
+- The algorithm gives the gcd(b, p) along with c, d such that (c * b) + (d * p) = gcd(b,p)
+- Because p is prime and b % p != 0, we have gcd(b, p) = 1. So, c * b (mod p) = 1
+- Thus c mod p is the multiplicative inverse b^(-1) mod p.
+- Inverse computation is placed under polynomial time.
+- Extended-Euclidean-Inverse(b, p):
+  1. Run Extended Euclidean Algorithm on (b, p) to obtain integers c, d such that c * b + d * p = 1
+  2. Compute inverse = c mod p
+  3. Return inverse
+
+Algorithmic Prime Generation:
+- Algorithmic applications require constructing a prime field of size exponential in a parameter n.
+- Randomized sampling:
+  1. Pick a random n-bit integer x that belongs to [2^n, 2^(n+1) - 1]
+  2. Test x for primality.
+  3. If x is prime, output p = x, otherwise repeat.
+- Primality testing can be performed deterministically in O(6^n) time using the Agarwal-Kayal-Saxena (AKS) algorithm, or probabilistically 
+  in quadratic time O(n^2) using the Miller-Rabin test.
+- By the Prime Number Theorem, the density of primes among n-bit numbers is given by: 1/ 2ln2 * n = Omega(1/n)
+- Testing O(n) random integers yields an n-bit prime with high probability. 
+
+
+Video-3: Extension Fields and Polynomial Modulo Arithmetic
+
+Existence, Uniqueness, and Quotient Ring Construction:
+- Finite fields exist if and only if their size q is a prime power q = p^k, where p is a prime and k >= 1 is an integer.
+- For every prime power q, there is a unique finite field up to isomorphism (element renaming)
+- When k > 1, extension fields are built as quotient rings of univariate polynomials.
+
+Mechanics of Extension Field Arithmetic:
+- Field operations: Addition & Subtraction, Multiplication, Division
+
+Binary Fields:
+- Binary extension fields.
+- If p = 2, elements correspond to binary bit-strings of length L.
+- Addition and subtraction of field elements reduce to bitwise XOR operations on L-bit words, executing in O(1) hardware machine cycles.
+
+Finding Irreducible Polynomials:
+- Random Sampling + Berlekamp
+- Shoup's Algorithm
+- van Lint Polynomials
+- By the Irreducible Polynomial Theorem, the probability that a random chosen degree-k polynomial over Fp is irreducible is between 1/2k and 1/k.
+- This ensures that randomized sampling finds an irreducible polynomial within O(k) trials.
+
+
+Video-4: Communication Complexity of Equality
+
+Problem Setting and Deterministic Lower Bound:
+- 2 physically separated parties: Alice and Bob
+- Alice holds an n-bit string and Bob holds an n-bit string. 
+- Their goal is to compute the Equality function: EQ(a, b) = 1 if a = b, 0 if a != b
+- The primary resource to minimize is the total number of bits transmitted between Alice and Bob.
+- Under deterministic communication protocols, any algorithm that correctly computes EQ(a, b) for all inputs must transmit at least n + 1 bits. 
+- Alice must send her entire n-bit string to Bob and Bob must reply with a 1-bit answer.
+
+Randomized Fingerprinting Protocol:
+- By introducing public randomness and accepting a small one-sided error probability (at most 1/n), Alice and Bob can solve the equality 
+  problem using only O(log n) bits of communication.
+- Randomized-Equality-Protocol(Alice: string a, Bob: string b):
+  1. Alice selects a prime power q such that n^2 <= q <= 2*^2.
+  2. Alice communicates q to Bob using O(log n) bits.
+  3. Both parties map their strings to polynomials over Fq of degree <= n.
+  4. Alice selects a random element alpha in Fq.
+  5. Alice computes evaluation v = Pa(alpha) and sends (alpha, v) to Bob.
+  6. Bob computes Pb(alpha).
+  7. If Pb(alpha) == v: Bob outputs "a = b"
+     Else: Bob outputs "a != b"
+
+Protocol Analysis and Error Bounds:
+- The protocol achieves an error probability of at most 1/n using only O(log n) bits of communication. 
