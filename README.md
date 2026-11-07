@@ -6,7 +6,7 @@ The first three months focus on reading, watching lectures, and exploring areas 
 
 Use the [shared roadmap](mentor/roadmap.md) as a starting point, and adjust your pace to your time and interests. You can watch more or fewer videos, or skip some, while keeping prerequisite dependencies in mind.
 
-There will be no regular meeting on **October 30** due to reading week. Our next regular Friday meeting is **November 6**; by then, please finish watching **through Lecture 10 (inclusive)** of TCS Toolkits. See the [viewing and note-taking plan](mentor/roadmap.md#week-4), and read [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to add notes and ask for feedback.
+Our next regular Friday meeting is **November 13**. Before then, please finish watching **Lecture 11** of Ryan O'Donnell's CS Theory Toolkit series and think about a topic or question you are passionate about exploring for your USRP project. See the [Week 5 plan](mentor/roadmap.md#week-5) and the [November 6 meeting summary](meetings/2026-11-06.md). Read [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to add notes and ask for feedback.
 
 We meet on Fridays from 4:30 to 5:30 p.m. Toronto time. See the [meeting details](meetings/README.md) for Zoom and the agenda.
 

@@ -81,6 +81,15 @@ By the **November 6** meeting, please finish watching **through Lecture 10 (incl
 
 Write down your own observations, examples, and questions in your mentee folder, and bring them to the meeting. Return to earlier lectures when you need more background.
 
+## Week 5
+
+Before **Friday, November 13, 2026**, please complete these two tasks:
+
+1. **Finish watching Lecture 11** of [Ryan O'Donnell's CS Theory Toolkit series](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX).
+2. **Think about your own USRP project.** What is something you are passionate about? Identify a topic or question you would enjoy exploring, and bring your initial ideas to the meeting.
+
+The [November 6 meeting notes](../meetings/2026-11-06.md) cover MPC, semi-honest and malicious adversaries, malicious security, and general feasibility results.
+
 ## Write, ask, and share
 
 Add notes to your own folder in any format that works for you. Share what you learned and the questions you want to discuss with the group.
