@@ -1,0 +1,26 @@
+Error Correcting Codes
+- System where you add redundance to data so that it can be recoverable even if it is corrupted
+- EE + Information Theory
+  - Probabilistic/Randomized Model
+- TCS
+  - Worst Case Model
+- Formal Definition:
+  - An injective map that encodes strings such that strings of length k are encoded into strings of length n 
+    - The strings are comprised of letters from the same alphabet, call it SIGMA, with Sigma^k denoting a string of length k which is comprised of letters from Sigma
+    - The cardinality of Sigma is called q (often times it is 2 as information is transferred in bits)
+    - The set of all possible messages that can be sent (domain) is called the MESSAGE SPACE
+    - k is the message length or dimension
+    - The set of all possible messages that can be outputted (range) is denoted as C
+    - If y is in C, then is it a CODEWORD
+    - n is the block length
+      - Note that n >= k since we are adding redundancies
+    - k/n is called RATE
+      - Want to add less redundancy for efficiency purposes => k should be close to n (i.e rate is close to 1)
+- Errors
+  - Should expect errors as it is built to reverse them
+  - Assume that it will only be changing characters and not modifying the length
+  - If putting string x into the map gives string y, we expect to obtain a string z with the same length as y
+    - Want to decode z into x. 
+    - Maybe like a matrix transformation that maps R^k to R^n, where k < n, that maps x to y?
+      - Find and inverse that maps y to x
+      - Since many points are compressed into the same point after undergoing the transformation, perhaps errors and the original 
