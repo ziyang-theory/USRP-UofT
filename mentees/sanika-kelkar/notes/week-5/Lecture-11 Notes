@@ -1,0 +1,29 @@
+Lecture-11
+
+11-a: Error Correcting Codes
+- Purpose: Add "controlled redundancy" to messages so corrupted data can be accurately recovered upon transmission or storage.
+- TCS focuses on a worst-case error model with a fixed bound of "T corrupted symbols", rather than "probabilistic errors"
+- The error model strictly considers symbol substitutions (excluding insertions, deletions, erasures).
+- Encoding: An injective map converts a length-k message into a length-n code word over alphabet.
+- Code rate: R = k/n measures transmission efficiency (rates closer to 1 mean less added redundancy)
+- Hamming distance: The count of coordinate positions in which two equal-length strings differ.
+- Minimum distance (D): The smallest Hamming distance between any pair of distinct code words.
+- Unique decoding: Corrupted messages can be uniquely decoded back to the original code word (if condition is satisfied)
+- Selecting code words randomly yields good rate-vs-distance trade-offs but lacks efficient storage, encoding, decoding algorithms.
+
+11-b: Linear Error Correcting Codes
+- Finite field alphabet identifies symbols with elements of a finite field.
+- Linear transformations maps map messages to code words making the encoding process efficient.
+- Generator matrix: a k x n full-rank atrix whose row space defines the k-dimensional subspace of all valid code words.
+- Code notation: Uses [n,k,d]q with square brackets to specify a linear code.
+- Dual code is an (n-k) dimensional subspace containing all vectors perpendicular to every code word in C.
+- Hamming weight is the number of non-zero entries in a vector.
+- Minimum distance D equals the minimum Hamming weight of any non-zero code word.
+- Minimum distance via columns also equals the minimum number of linearly independent columns in the parity check matrix H.
+
+11-c: Hamming Code and Hadmard Code
+- The hamming code construction is defined by a parity-check matrix H over F2 - columns contain all non-zero binary vectors of height r.
+- Hamming code parameters feature block length n = 2^r - 1, message length k = 2^r - 1 - r, and minimum distance = 3.
+- The hamming code achieves an exceptional data rate but only corrects up to 1 bit "flip"?
+- Multiplying a corrupted vector by H outputs a binary index indicating the exact position of the flipped bit- called Syndrome Decoding.
+- Hadamard suffers from a poor data rate but delivers a maximum minimum distance-
