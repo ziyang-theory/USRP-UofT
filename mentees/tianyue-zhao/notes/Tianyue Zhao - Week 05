@@ -39,4 +39,43 @@ Error Correcting Codes
   - Random
     - Very good rate vs distance tradeoff
     - Lacks efficient encoding/decoding algorithms
-
+- Optimal
+  - High Rate
+  - High Minimum Distance
+  - Efficient Algorithms for encoding/decoding
+- Linear Error Correcting Codes
+  - Encoding algorithm is efficient
+  - Think of Strings as vectors and Encoding Map is Linear Transformation (I was right)
+  - Basically the entirety of good Error Correcting Codes
+  - Sigma = Finite Field of size q
+    - Alphabet set will only be a prime power
+      - Circumvented as there is a finite set of size 2^L for all positive integers L
+  - Encoding takes in a k dimensional vector space in the finite field, outputs a n dimensional vector space in the finite field, and is a linear transformation
+    - Letting G be the matrix associated with the transformation, x -> xG (Note x is a row vector, col vector would be Gx)
+      - Clearly G is of size k by n
+      - Choose G such that is a full rank
+    - Then, C is row(G) and is thus a k-dimensional subspace
+    - Clearly, it is easy to encode as it's just a matrix-vector multiplication (Time complexity O(k*n) for a matrix of size k by n)
+  - Usually, decoding the code with errors is NP-hard
+    - However, special choices of G can let the task run in P
+  - [n, k, d]_q is used as notation to represent the above
+    - Sometimes d is ommitted and it would be written as [n, k]_q
+  - Define C^perpendicular as the set of all vectors that are perpendicular to vectors in C
+    - It can be constructued as The set of all n-dimension vectors v such that the dot product of v and any vector in C is 0
+    - It is a subspace of dimension n-k
+    - (C^perp)^perp = C
+    - C^perp = [n, n-k]_q
+    - Let H be the encoding matrix for C^perp
+      - The rows of H are orthogonal to all codewords
+        - The matrix-vector product is the zero vector iff the vector is a codeword
+        - The dot product of a row in H and the vector iff the vector is a codeword
+  - Hamming Weight
+    - The Hamming distance between a string and the zero string
+      - Thus, the number of non-zero entries in the string
+  - d = min Hamming Distance of non-zero codewords
+    - By linearity, the Hamming Distance between two distinct codewords is the Hamming Weight of a codeword
+    - Conversely, the Hamming Weight of any code word is the Hamming Distance between two pairs of codewords by linearlity
+  - d = min non-zero number of columns of H which are linearly dependent
+    - Since d = min(Hamming Distance of non-zero codewords), d = min(Hamming Distance of non-zero words z such that zH = zero-vector}
+    - If a set of vectors is linearly dependent, there exists a set with at least 1 non-zero constant that satisfies the above. 
+    - Since it is the MINIMUM amount of vectors that form a linearly dependent set, all constants are non-zero.
