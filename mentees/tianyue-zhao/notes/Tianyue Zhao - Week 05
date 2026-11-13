@@ -18,9 +18,25 @@ Error Correcting Codes
       - Want to add less redundancy for efficiency purposes => k should be close to n (i.e rate is close to 1)
 - Errors
   - Should expect errors as it is built to reverse them
+  - Assumes up to T errors for some T
   - Assume that it will only be changing characters and not modifying the length
   - If putting string x into the map gives string y, we expect to obtain a string z with the same length as y
     - Want to decode z into x. 
     - Maybe like a matrix transformation that maps R^k to R^n, where k < n, that maps x to y?
       - Find and inverse that maps y to x
       - Since many points are compressed into the same point after undergoing the transformation, perhaps errors and the original 
+  - Hamming distance
+    - Denoted as Delta(y, z) for two strings y, z of the same length
+    - Evaluated as sum([y[i] != z[i] for i in range(len(y))])
+  - When using Hamming distance, can represent all possible errors as a circle with radius T (Hamming Ball) around the codeword 
+  - Thus, our job is to ensure that each point is within at most one Hamming Ball (Injectivity)
+    - The Hamming Distance between two codewords should be AT LEAST 2T (Delta(y, y') > 2T), otherwise the Hamming Balls would overlap
+  - Minimum Distance
+    - Denoted as d
+    - Evaluated as min(Delta(y, y')) for all y, y' in C
+  - If T < floor((d-1)/2), then we can decode!
+- Choosing codewords
+  - Random
+    - Very good rate vs distance tradeoff
+    - Lacks efficient encoding/decoding algorithms
+
