@@ -24,7 +24,6 @@ Mentor: [Ziyang Jin](https://github.com/ziyang-theory).
 | Rohaan Khan | [rohaan-khan](mentees/rohaan-khan/) |
 | Tianyue Zhao | [tianyue-zhao](mentees/tianyue-zhao/) |
 | Jaylen Sze | [jaylen-sze](mentees/jaylen-sze/) |
-| Ivy Zhao | [ivy-zhao](mentees/ivy-zhao/) |
 | Jack Tang | [jack-tang](mentees/jack-tang/) |
 | Mendim Eshrefi | [mendim-eshrefi](mentees/mendim-eshrefi/) |
 
