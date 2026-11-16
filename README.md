@@ -6,7 +6,7 @@ The first three months focus on reading, watching lectures, and exploring areas 
 
 Use the [shared roadmap](mentor/roadmap.md) as a starting point, and adjust your pace to your time and interests. You can watch more or fewer videos, or skip some, while keeping prerequisite dependencies in mind.
 
-Our next regular Friday meeting is **November 13**. Before then, please finish watching **Lecture 11** of Ryan O'Donnell's CS Theory Toolkit series and think about a topic or question you are passionate about exploring for your USRP project. See the [Week 5 plan](mentor/roadmap.md#week-5) and the [November 6 meeting summary](meetings/2026-11-06.md). Read [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to add notes and ask for feedback.
+Our next regular Friday meeting is **November 20**. Before then, please spend several hours refining your project idea and searching the literature, and prepare a **one-page project proposal (two pages at most)**. Aim to improve on existing work or investigate something new. If you have not finished **Lecture 11** of Ryan O'Donnell's CS Theory Toolkit series, please finish it as well. See the [Week 6 plan](mentor/roadmap.md#week-6) and the [November 13 meeting summary](meetings/2026-11-13.md). Read [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to add notes and ask for feedback.
 
 We meet on Fridays from 4:30 to 5:30 p.m. Toronto time. See the [meeting details](meetings/README.md) for Zoom and the agenda.
 
