@@ -42,6 +42,28 @@ Cantor diagonalization style proofs are useful for proving lower bounds and comp
 
 There is some sort of DTIME($n^2) != $ DTIME($n^3$) thing called Time Hierarchy Theorem. But I didn't really understand it, even after discussing it with LLMs.
 
+Figured out whats happening. An _oracle_ (e.g. $A$) is a component of a turing machine that can answer a specific question for cheap. From here, the main turing machine can be seen as reducing the problem it is solving to the oracle.
+
+The oracle is useful for proving that problems reduce to each other in polynomial time, even if we don't know the complexity class of the problem we are reducing to.
+
+Apparently in 1975 this was used to show that diagonalization technique won't solve P vs. NP, because there exist oracles such that $P=N P$ and $P!=N P$. This is called _relativization_, which I don't quite understand yet, but the idea seems to be that most proof techniques require "forall" statements. So if it turns out we can't guarantee a "forall" to the proof technique, we know the problem is trickier.
+
+_algebraization_ is some kind of generalization of _relativization_. Avi Widgerson showed that it is unhelpful to P vs. NP.
+
+==== 5.2 Boolean Circuits
+
+I know a lot of basics from elsewhere.
+
+Circuits are strange because they allow parallelization, and also have fixed input sizes (_nonuniformity_). This makes circuit complexity be the size of the circuit in terms of the input size. There is a lot of strength (and hard proofs) here because the circuits for different input sizes of the same problem don't need to follow a common construction pattern. Proving lower bounds for circuits is hard.
+
+Apparently there are functions that are undcidable for Turing Machines (e.g. Diophantine equations), but have linear boolean circuits. This is possible because Turing Machines need the same algorithm for any input size, whereas boolean circuits can construct a new circuit for every size. Though I am curious how they formalized this construction while making it impossible to write an algorithm that constructs the boolean circuit and then simulates it. "Smallest number that can't be written in less than 100 characters." sort of situation it seems.
+
+$P / p o l y$ class is called polynomial with "advice" where the turing machine, besides the input, also gets an encoded boolean circuit (advice on how to compute the function). Apparently this class contain all of $P$ but we don't know if it contains $N P$ (if we knew, P vs. NP would be solved).
+
+(I already heard this in CSC240 tutorial) most boolean functions need exponential size circuits, because there are just way more functions ($2^2^n$) than there are small circuits. Indeed we have a "smallest number that can't be written in less than 100 characters." problem.
+
+There is clearly a lot of open problems in boolean circuit complexity. But this sort of hides all the progress that was made, and it is likely that currently all everyone cares about are the limited set of incredibly difficult open problems from which everything else trivially follows.
+
 == Other Stuff
 
 === The 3 Models of Computation
