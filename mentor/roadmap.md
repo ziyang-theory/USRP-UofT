@@ -98,7 +98,7 @@ Before **Friday, November 20, 2026**, each member should:
 2. **Prepare a one-page project proposal, with a maximum of two pages.** State the problem, summarize the closest prior work, explain the intended new contribution, and outline your approach and first steps. Bring the proposal to the next meeting.
 3. **Finish watching Lecture 11 if you have not already done so.** Use [Ryan O'Donnell's CS Theory Toolkit series](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX).
 
-The [November 13 meeting notes](../meetings/2026-11-13.md) describe possible directions: complexity of real-world problems, formal verification of classic TCS results, AI-agent collaboration using cryptography, and Condorcet sets.
+The [November 13 meeting notes](../meetings/2026-11-13.md) describe possible directions: complexity of real-world problems, formal verification of classic TCS results, [AI-agent collaboration over private data](projects/seccol/README.md), and Condorcet sets.
 
 ## Write, ask, and share
 
