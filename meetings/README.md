@@ -4,7 +4,7 @@
 
 We meet every Friday from 4:30 to 5:30 p.m. Toronto time on [Ziyang's Zoom meeting](https://utoronto.zoom.us/j/9668832476). We will share the passcode privately in the Discord channel.
 
-Our next regular Friday meeting will be on **Friday, November 13, 2026**, at the usual time. By then, please finish watching **Lecture 11** of [Ryan O'Donnell's CS Theory Toolkit series](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX) and think about a topic or question you are passionate about exploring for your USRP project. See the [November 6 meeting notes](2026-11-06.md).
+Our next regular Friday meeting will be on **Friday, November 20, 2026**, at the usual time. By then, each member should spend several hours refining a project idea and searching the literature, and prepare a **one-page project proposal (two pages at most)**. If you have not finished **Lecture 11** of [Ryan O'Donnell's CS Theory Toolkit series](https://www.youtube.com/playlist?list=PLm3J0oaFux3ZYpFLwwrlv_EHH9wtH6pnX), please finish it as well. See the [November 13 meeting notes](2026-11-13.md) for project directions and proposal guidance.
 
 ### Agenda
 
@@ -22,6 +22,7 @@ There will be **no Wednesday meeting on October 28, 2026**, due to reading week.
 
 ## Meeting notes
 
+- [November 13, 2026: Project proposals and research directions](2026-11-13.md).
 - [November 6, 2026: Secure multiparty computation and malicious security](2026-11-06.md).
 - [October 23, 2026: Beaver triples, multiplication, and Condorcet sets](2026-10-23.md).
 - [October 16, 2026: Finite fields, secret sharing, and computing a sum](2026-10-16.md).
