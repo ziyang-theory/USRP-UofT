@@ -100,6 +100,10 @@ Before **Friday, November 20, 2026**, each member should:
 
 The [November 13 meeting notes](../meetings/2026-11-13.md) describe possible directions: complexity of real-world problems, formal verification of classic TCS results, [AI-agent collaboration over private data](projects/seccol/README.md), and Condorcet sets.
 
+## Week 7
+
+Use this week to write up the research plan you discussed with Ziyang on [November 20](../meetings/2026-11-20.md). Submit your **formal research proposal** by your next meeting. There is no assigned reading this week.
+
 ## Write, ask, and share
 
 Add notes to your own folder in any format that works for you. Share what you learned and the questions you want to discuss with the group.

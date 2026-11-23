@@ -6,7 +6,7 @@ The first three months focus on reading, watching lectures, and exploring areas 
 
 Use the [shared roadmap](mentor/roadmap.md) as a starting point, and adjust your pace to your time and interests. You can watch more or fewer videos, or skip some, while keeping prerequisite dependencies in mind.
 
-Our next regular Friday meeting is **November 20**. Before then, please spend several hours refining your project idea and searching the literature, and prepare a **one-page project proposal (two pages at most)**. Aim to improve on existing work or investigate something new. If you have not finished **Lecture 11** of Ryan O'Donnell's CS Theory Toolkit series, please finish it as well. See the [Week 6 plan](mentor/roadmap.md#week-6) and the [November 13 meeting summary](meetings/2026-11-13.md). Read [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to add notes and ask for feedback.
+Our next regular Friday meeting is **November 27**. Please submit your **formal research proposal** by your next meeting. There is no assigned reading this week. See the [Week 7 plan](mentor/roadmap.md#week-7) and the [November 20 meeting notes](meetings/2026-11-20.md). Read [CONTRIBUTING.md](CONTRIBUTING.md) to learn how to add notes and ask for feedback.
 
 One project option is to [extend SecCol](mentor/projects/seccol/README.md), Ziyang’s work on how AI agents can collaborate over private data.
 
