@@ -23,7 +23,6 @@ Mentor: [Ziyang Jin](https://github.com/ziyang-theory).
 | Sanika Kelkar | [sanika-kelkar](mentees/sanika-kelkar/) |
 | Andrei Akopian | [andrei-akopian](mentees/andrei-akopian/) |
 | Darren Kosasih | [darren-kosasih](mentees/darren-kosasih/) |
-| Rohaan Khan | [rohaan-khan](mentees/rohaan-khan/) |
 | Tianyue Zhao | [tianyue-zhao](mentees/tianyue-zhao/) |
 | Jaylen Sze | [jaylen-sze](mentees/jaylen-sze/) |
 | Jack Tang | [jack-tang](mentees/jack-tang/) |
